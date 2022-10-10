@@ -33,7 +33,45 @@ a{
     text-decoration: none;
 }
 
+.wrapper {
+    max-width: 1600px;
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* header styles */
 
+header{
+    width: 100%;
+    background-image: url(./assets/header-alt.png);
+    background-color: #F5C8CF;
+    height: 600px;
+    /* ------------- */
+    font-family: EmblemaOne;
+    /* ------------- */
+}
+
+h1, h2, h3{
+    color: #1d81cc;
+}
+/* nav */
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    color: #042259;
+    
+}
 
 /* gallery section */
+
+.about{
+    background-color: #fcdde2;
+}
+.gal1 li{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
